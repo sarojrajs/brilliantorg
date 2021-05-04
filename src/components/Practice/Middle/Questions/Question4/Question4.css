@@ -1,0 +1,35 @@
+.question4{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 40px;
+}
+
+.question4 ul{
+    margin-bottom: 18px;
+}
+.question li{
+    margin-bottom: 10px;
+}
+.dragAndDrop{
+    background-color: red;
+    display: flex;
+}
+.question4Buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.button{
+    height: 40px;
+    background: transparent;
+    color: rgba(0, 0, 0, 0.7);
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.show:hover{
+    cursor: pointer;
+    color: black;
+}

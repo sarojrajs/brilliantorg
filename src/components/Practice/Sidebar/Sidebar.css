@@ -1,0 +1,33 @@
+.sidebar{
+    /* position: fixed; */
+    background: black;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1;
+    min-height: 680px;
+    min-width: 200px;
+    max-width: 250px;
+    /* width: 15%; */
+}
+
+.sidebar a{
+    color: white;
+    text-decoration: none;
+    margin-top: 30px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #fff;
+    opacity: .5;
+}
+
+.sidebar h3{
+    font-size: 16px;
+    line-height: 22px;
+    color: #fff;
+    opacity: .7;
+    margin-top: 40px;
+}

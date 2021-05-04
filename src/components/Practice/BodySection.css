@@ -1,0 +1,10 @@
+.bodySection{
+    display: flex;
+}
+.leftSidebar{
+    flex: 0.15;
+}
+
+.middle{
+    flex:1;
+}

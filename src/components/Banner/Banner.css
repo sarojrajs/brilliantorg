@@ -1,0 +1,121 @@
+.banner{
+    background-color: #f7f7f8;
+    display: flex;
+    color:#000000a1;
+    justify-content: space-around;
+    align-items: center;
+}
+.bannerleft{
+flex: 0.8;
+/* border: 1px solid black; */
+padding: 40px;
+padding-left: 60px;
+padding-right: 10px;
+}
+.bannerRight{
+    /* border: 1px solid black; */
+    flex: 0.6;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+}
+.link{
+    font-size: 16px;
+    color: #000000a1;
+    text-decoration: none;
+}
+.link:hover{
+    color: black;
+    cursor: pointer;
+}
+.title{
+    color: black;
+    font-size: 48px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.stretch{
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom:20px;
+}
+.top{
+    
+}
+.bannerleft p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.bannerleft button{
+    border: none;
+    background: transparent;
+    text-decoration: underline;
+    font-size: 15px;
+    color: #000000a1;
+}
+
+.bannerleft button:hover{
+    cursor: pointer;
+    font-weight: 300;
+    color: black;
+}
+
+.topics_covered{
+    display: flex;
+    flex-direction: column;
+}
+.topics_index{
+    display: flex;
+    justify-content: space-around;
+}
+.topics_left{
+    flex-direction: column;
+}
+
+.topics{
+    font-size: 18px;
+}
+
+.whiteBox{
+    border: 2px solid rgba(0,0,0,0.14);
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* height: 100%; */
+}
+.logicImage{
+    width: 300px;
+    height: 400px;
+}
+.info{
+    margin: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.startButton{
+    width: 90%;
+    background-color: black;
+    color: white;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 600;
+    touch-action: manipulation;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    border: none;
+}
+.startButton:hover{
+    cursor: pointer;
+    background:rgba(0, 0, 0, 0.753);
+    color: white;
+}

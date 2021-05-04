@@ -1,0 +1,40 @@
+.dragDrop{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.board{
+    width: 150px;
+    /* background-color: red; */
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    border: 1px dotted black;
+}
+
+.card{
+    /* background-color: blue; */
+    cursor: pointer;
+    width: 130px;
+    height: 130px;
+}
+.imageBoard{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.answerBoard{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cartoonPhotos{
+    width: 110px;
+    height: 110px;
+    object-fit: contain;
+}
+.card{
+    /* border: 1px solid black; */
+}

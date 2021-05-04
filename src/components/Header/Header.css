@@ -1,0 +1,85 @@
+.header{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 10;
+}
+.headerImage{
+    
+    height: 50px;
+    object-fit: contain;
+}
+
+.headerLeft{
+    display: flex;
+    align-items: center;
+    flex: 0.5;
+    justify-content: center;
+
+}
+
+.headerLeft p{
+    font-size: 32px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.829);
+    text-transform: uppercase;
+}
+.headerCenter{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1;
+}
+
+.headerCenter a{
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    
+}
+
+
+
+
+
+.headerRight{
+    display: flex;
+    align-items: center;
+    flex: 0.7;
+    margin-right: 20px;
+    
+}
+.button{
+    width: 200px;
+    height: 30px;
+    border-radius: 4px;
+    border: none;
+    margin-left:10px
+}
+.login{
+    background: white;
+    color: #039BE5 ;
+    border:1px solid #039BE5;
+}
+.login:hover{
+    cursor: pointer;
+    box-shadow:0.5px 0.5px grey ;
+}
+.signup{
+    
+    background: #039BE5;
+    color: white;
+    font-size: 15px;
+}
+.signup:hover{
+    cursor: pointer;
+    background-color: #0174ad;
+}

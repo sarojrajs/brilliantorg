@@ -1,0 +1,48 @@
+.question5{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 40px;
+}
+
+.question5 ul{
+    margin-bottom: 18px;
+}
+.question li{
+    margin-bottom: 10px;
+}
+.dragAndDrop{
+    background-color: red;
+    display: flex;
+}
+.question5Buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.button{
+    height: 40px;
+    background: transparent;
+    color: rgba(0, 0, 0, 0.7);
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.show:hover{
+    cursor: pointer;
+    color: black;
+}
+.question5Box{
+   width: 80%;
+    border: 1px solid black !important;
+    /* padding-left: 35px; */
+    padding: 30px;
+    background: #fbfbfb;
+    border: 1px solid #d4d4d4;
+    box-shadow: 0 0 0 1px #f3f3f3;
+}
+.question5Box ul{
+    display: list-item !important;
+    list-style-type: disc !important;
+}

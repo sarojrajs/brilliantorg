@@ -1,0 +1,8 @@
+download the repository
+write npm install, npm update,
+then npm start
+
+Dependency used
+react-router-dom,
+react-icons,
+react-use-overflow
